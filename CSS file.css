@@ -1,0 +1,104 @@
+.navbar {
+    overflow: hidden;
+    background-color: #323131;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #c2a7a1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #7b8988;
+    color: black;
+  }
+
+  .aboutAlign {
+    text-align: center;
+  }
+
+body {
+  background-color: #feeae2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+article {
+  float: left;
+  margin: 0 1.5%;
+  width: 29%;
+  height: 600px;
+  background-color: #7b8988;
+}
+
+footer {
+  font-size: 10pt;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #323131;
+  color: #c2a7a1;
+  text-align: center;
+  z-index: 1000;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.hobbies, .hometown, .learned {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.maprouter {
+  text-align: center;
+}
